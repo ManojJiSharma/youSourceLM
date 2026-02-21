@@ -56,11 +56,11 @@ Returns:
 
 ### ❓ Ask Question
 
-POST /ask
+GET /query
 
 Request:
 
-{ "document_id": "optional-uuid", "query": "Your question here" }
+{ "query": "Your question here", "document_id": "optional-uuid" }
 
 Behavior: - If `document_id` provided → filtered search - If not
 provided → global search across all documents
@@ -93,7 +93,7 @@ Prevents hallucination for unrelated queries.
 
 Model used:
 
-jina-reranker-v2-base
+jina-reranker-v3
 
 Improves precision before sending context to LLM.
 
