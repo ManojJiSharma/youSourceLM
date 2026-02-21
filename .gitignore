@@ -1,0 +1,99 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+*.env
+
+# API Keys / Secrets
+secrets.json
+config.local.yaml
+config.local.yml
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.pid
+*.sock
+
+# =========================
+# Vector DB / RAG Storage
+# =========================
+chroma/
+chroma_db/
+weaviate_data/
+faiss_index/
+faiss_store/
+*.faiss
+*.pkl
+
+# =========================
+# Uploaded / Generated Files
+# =========================
+uploads/
+generated/
+output/
+data/
+
+# =========================
+# Cache
+# =========================
+.cache/
